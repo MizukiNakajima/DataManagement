@@ -19,7 +19,7 @@ int main(){
     cout<<"Die 1: "<<a<<endl;
     cout<<"Die 2: "<<b<<endl;
     cout<<"Total value: "<<a+b<<endl;
-    if(a+b>=7)cout<<"you won!"<<endl;
-    else cout<<"You lost"<<endl;
+    if(a+b>=7)cout<<name<<" won!"<<endl;
+    else cout<<name<<" lost"<<endl;
     return 0;
 }
