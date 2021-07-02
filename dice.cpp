@@ -5,6 +5,11 @@
 #include<random>
 using namespace std;
 int main(){
+    string name;
+    cout<<"What is your name?"<<endl;
+    cout<<"> ";
+    cin>>name;
+    cout<<"Hello, "<<name<<"!"<<endl;
     random_device rnd;
     mt19937 mt(rnd());
     uniform_int_distribution<> rand100(1, 6);
